@@ -9,6 +9,16 @@
 // 👇 هنا function عرف الدالة او
 
 
+function driving(age) {
+ if (age >= 18){
+     console.log(`🚘😍 مبروك سوف تحصل على الليسن`)
+ } else {
+     console.log(`😢 للاسف عمرك لا يسمح`)
+ }
+}
+
+driving(18)
+
 
 // لا تنسى أن تنادي الدالة
 
@@ -22,7 +32,11 @@
 
 // 👇 هنا array عرف المصفوفة او
 
+let iceCream = ["Chocolate", "Vanilla", "Mint", "Strawberry"]
 
+for (let ice of iceCream) {
+    console.log(ice);
+}
 
 
 
@@ -32,3 +46,25 @@
 
 // --------------------------------- 🔥 بونص ------------------------------------
 // while loop اطبع احد المصفوفات بإستخدام
+
+let cartoonShows = ["Spongebob", "Dora", "Conon", "Ben Ten"]
+
+function myIceCream(x) {
+    console.log(iceCream);
+}
+
+myIceCream()
+
+for (let cartoons of cartoonShows) {
+    console.log(cartoons);
+}
+
+
+let counter = 0;
+
+while (counter < cartoonShows.length) {
+  console.log(cartoonShows[counter]);
+     counter += 1;   
+}
+
+
